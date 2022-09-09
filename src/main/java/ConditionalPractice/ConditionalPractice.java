@@ -1,5 +1,7 @@
 package ConditionalPractice;
 
+
+import java.util.*;
 /**
  * This code contains errors that you will need to fix.
  * The goal of the code is to accept input from the user, then decide if the answer 
@@ -15,6 +17,7 @@ package ConditionalPractice;
 public class ConditionalPractice {
 
     public static void main(String[] args) {
+        Scanner reader = new Scanner(System.in);
         System.out.println("Enter a number");
         x = reader.nextLine();
         if (x > 0 && x <= 10)
